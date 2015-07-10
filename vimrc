@@ -1,8 +1,15 @@
 set nocompatible
+filetype off
+
+set rtp+=~/.vim/bundle/Vundle.vim
+call vundle#begin()
+Plugin 'gmarik/Vundle.vim'
+Plugin 'Valloric/YouCompleteMe'
+
+call vundle#end()
 
 syntax on
 syntax enable
-filetype on
 filetype indent on
 filetype plugin indent on
 set hidden

@@ -1,1 +1,16 @@
 This is my Vim config.
+
+To use YouCompleteMe:
+
+* May need to do 'git submodule update --init --recursive' to
+  fetch YCM dependecies
+
+* Run ./install.sh in vundle folder
+
+* Do :PluginInstall in vim
+
+Requirements:
+
+* Curl
+* cmake
+* Python headers
