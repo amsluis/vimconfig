@@ -34,3 +34,5 @@ set backspace=indent,eol,start
 nnoremap <silent> [b :bprevious<CR>
 nnoremap <silent> ]b :bnext<CR>
 
+:highlight ExtraWhitespace ctermbg=yellow guibg=yellow
+:match ExtraWhitespace /\s\+$/
