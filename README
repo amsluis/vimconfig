@@ -2,6 +2,8 @@ This is my Vim config.
 
 To use YouCompleteMe:
 
+* git clone https://github.com/gmarik/Vundle.vim.git ~/.vim/bundle/Vundle.vim
+
 * May need to do 'git submodule update --init --recursive' to
   fetch YCM dependecies
 
